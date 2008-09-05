@@ -1,13 +1,16 @@
 MultiFieldGroupBy
 =================
 
-Introduction goes here.
+This plugin patches ActiveRecord::Calculations to support grouping my multiple fields.
 
+The patch was originally documented at 
+http://rails.lighthouseapp.com/projects/8994/tickets/120-patch-activerecord-calculations-only-accept-one-grouping-field#ticket-120-8
 
 Example
 =======
 
-Example goes here.
+User.count, :group => [:sex, :state]
 
 
-Copyright (c) 2008 [name of plugin creator], released under the MIT license
+
+Copyright (c) 2008 PatientsLikeMe, Inc., released under the MIT license
