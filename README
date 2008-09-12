@@ -1,9 +1,9 @@
 MultiFieldGroupBy
 =================
 
-This plugin patches ActiveRecord::Calculations to support grouping my multiple fields.
+This plugin patches ActiveRecord::Calculations to support grouping by multiple fields.
 
-The patch was originally documented at 
+This plugin is based on a patch originally documented and submitted at 
 http://rails.lighthouseapp.com/projects/8994/tickets/120-patch-activerecord-calculations-only-accept-one-grouping-field#ticket-120-8
 
 Example
